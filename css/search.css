@@ -1,0 +1,34 @@
+form#search {
+  position: fixed;
+  z-index: 50;
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s opacity;
+}
+
+form#search.visible {
+  opacity: 0.9;
+  pointer-events: all;
+}
+
+form#search input {
+  font-family: Iosevka;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  border: none;
+  font-size: 2em;
+  padding: 1em;
+  color: var(--accent-color);
+  background-color: #1e2b46e0;
+  box-sizing: border-box;
+}

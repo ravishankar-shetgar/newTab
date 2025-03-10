@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="./img/home.png" type="image/x-icon">
+
+
+	<title>HOME </title>
+	<meta name="description"
+		content="Startpage used by the infamous organized crime gang &quot;GNUCAT&quot;. Please don&apos;t tell me mom I&apos;m in a criminal gang or I will get grounded again.">
+	<meta name="author" content="Capuno">
+
+	<style>
+		:root {
+			--background-color: #1C1C1C;
+			--foreground-color: #3C3C3C;
+			--accent-color: pink;
+		}
+
+		body {
+			background-color: var(--background-color);
+		}
+	</style>
+
+	<link rel="stylesheet" href="css/clock.css">
+	<link rel="stylesheet" href="css/dialog.css">
+	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" href="css/settings.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/config.js"></script>
+	<script src="js/builder.js" defer></script>
+	<script src="js/clock.js" defer></script>
+	<script src="js/dialog.js"></script>
+	<script src="js/search.js" defer></script>
+	<script src="js/settings.js" defer></script>
+
+</head>
+
+<body>
+
+	<img src="img/cute.png" alt="Con blushing" id="cute">
+
+	<button id="cog">⚙️</button>
+	<main>
+
+		<span class="actions">
+			<button onclick="createDaddy()">✚</button>
+		</span>
+		<div id="bin">
+			DELET
+		</div>
+	</main>
+
+	<div id="settings">
+		<div>
+			<h3>Export</h3>
+			<button onclick="actions.export('structure')">Links</button>
+			<button onclick="actions.export('settings')">Settings</button>
+			<button onclick="actions.export('all')">All</button>
+			<h3>Import</h3>
+			<label><input type="file" onchange="actions.import(this)"><span>Import</span></label>
+			<h3>Reset</h3>
+			<button onclick="actions.reset()">Reset</button>
+		</div>
+		<div>
+			<section>
+				<h3>Clock</h3>
+				<label>
+					<input id="clockfx_metal" type="radio" name="clockfx"
+						onchange="actions.clock.setEffect('metal')"><span></span>
+					Metal Effect
+				</label>
+				<label>
+					<input id="clockfx_fade" type="radio" name="clockfx"
+						onchange="actions.clock.setEffect('fade')"><span></span>
+					Fade Effect
+				</label>
+				<label>
+					<input id="clockfx_none" type="radio" name="clockfx"
+						onchange="actions.clock.setEffect('none')"><span></span>
+					None
+				</label>
+			</section>
+			<section>
+				<h3>Palette</h3>
+				<label>
+					<input type="color" onchange="actions.palette.setColor('background', this.value)"><span
+						id="palette_background"></span>
+					Background Color
+				</label>
+				<label>
+					<input type="color" onchange="actions.palette.setColor('foreground', this.value)"><span
+						id="palette_foreground"></span>
+					Foreground Color
+				</label>
+				<label>
+					<input type="color" onchange="actions.palette.setColor('accent', this.value)"><span
+						id="palette_accent"></span>
+					Accent Color
+				</label>
+			</section>
+			<section>
+				<h3>Cute Mode</h3>
+				<label>
+					<input type="checkbox" onchange="actions.cute(this.checked)"><span id="cute_enable"></span>
+					r u cute?
+				</label>
+			</section>
+		</div>
+	</div>
+
+	<section id="data">
+		<!-- CSS Clock!!! -->
+		<div id="clock">
+			<span id="hours">
+				<span>0120</span>
+				<span>01234567890</span>
+			</span>
+			:
+			<span id="minutes">
+				<span>0123450</span>
+				<span>01234567890</span>
+			</span>
+			:
+			<span id="seconds">
+				<span>0123450</span>
+				<span>01234567890</span>
+			</span>
+		</div>
+		<p>
+			“All right, I've been thinking, when life gives you lemons, don't make lemonade! Make life take the lemons
+			back! Get mad! I don't want your damn lemons! What am I supposed to do with these? Demand to see life's
+			manager!
+			Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am? I'm the man whose
+			gonna burn your house down - with the lemons!”
+			<br>
+			- Cave Johnson, CEO Aparture Science
+		</p>
+	</section>
+
+	<form action="https://duckduckgo.com/" id="search">
+		<input type="text" name="q" id="search_input" autocomplete="off">
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+{
+  "structure": {
+    "DASHBOARDS": [
+      [
+        "clickUp",
+        "https://app.clickup.com/1252943/home"
+      ],
+      [
+        "appleDev",
+        "https://developer.apple.com/account/"
+      ],
+      [
+        "appStoreConnect",
+        "https://appstoreconnect.apple.com/apps"
+      ],
+      [
+        "bitrise",
+        "https://app.bitrise.io/dashboard"
+      ],
+      [
+        "oneSignal",
+        "https://dashboard.onesignal.com/apps"
+      ],
+      [
+        "codePush",
+        "https://appcenter.ms/apps"
+      ],
+      [
+        "sentry",
+        "https://sentry.io/organizations/truckx/issues/?project=6420565"
+      ],
+      [
+        "playConsole",
+        "https://play.google.com/console/u/0/developers/6142809661711510203/app-list"
+      ],
+      [
+        "crashlytics",
+        "https://console.firebase.google.com/u/0/project/fleet-management-app-39336/crashlytics/app/android:com.truckxdispatcher.app/issues?time=1691366400000:1691625599000&state=open&tag=all&sort=eventCount"
+      ],
+      [
+        "kFuse",
+        "https://kfuse.truckx.com/#/logs"
+      ]
+    ],
+    "WORK": [
+      [
+        "gmail",
+        "https://mail.google.com/mail/u/0/#inbox"
+      ],
+      [
+        "calendar",
+        "https://calendar.google.com/calendar/u/0/r?tab=mc"
+      ],
+      [
+        "googleMeet",
+        "https://meet.google.com/?hs=197&pli=1&authuser=0"
+      ],
+      [
+        "googleDocs",
+        "https://drive.google.com/drive/my-drive"
+      ],
+      [
+        "dailyMobileStandUp",
+        "https://meet.google.com/atn-ghtc-xfa"
+      ],
+      [
+        "ascentPayroll",
+        "https://truckx.ascentpayroll.com"
+      ],
+      [
+        "keka",
+        "https://truckx.keka.com/#/home/dashboard"
+      ]
+    ],
+    "TRUCKX": [
+      [
+        "fleetAppGithub",
+        "https://github.com/ravishankarShetgar/fleet-management-app"
+      ],
+      [
+        "driverLogAppGithub",
+        "https://github.com/ravishankarShetgar/driver-logbook-app"
+      ],
+      [
+        "fmsWebAppGithub",
+        "https://github.com/ravishankarShetgar/fms-web"
+      ],
+      [
+        "fmsWebApp",
+        "https://web.truckx.com/efms/logbook"
+      ],
+      [
+        "efmsWebApp",
+        "https://reseller-web3-k8s-staging.truckx.com/"
+      ],
+      [
+        "truckxSupportLogin",
+        "https://support.truckx.com/support"
+      ],
+      [
+        "jenkinsDashboard",
+        "https://jenkins-dev.truckx.com/"
+      ],
+      [
+        "figma",
+        "https://www.figma.com"
+      ],
+      [
+        "openVpnClient",
+        "https://34.94.126.189/"
+      ]
+    ],
+    "OTHER": [
+      [
+        "devdocs",
+        "https://devdocs.io/"
+      ],
+      [
+        "youtube",
+        "https://www.youtube.com/"
+      ],
+      [
+        "jSOnFormatter",
+        "http://192.168.29.226:8080"
+      ],
+      [
+        "keybr",
+        "https://www.keybr.com/"
+      ],
+      [
+        "socketClientTool",
+        "https://amritb.github.io/socketio-client-tool/v1/#url=aHR0cHM6Ly93ZWIudHJ1Y2t4LmNvbQ==&path=L2FwaS9saXZlLXNvY2tldC1zZXJ2aWNl&opt=&events=,liveLocationUpdate"
+      ]
+    ]
+  },
+  "settings": {
+    "clock": {
+      "effect": "none"
+    },
+    "palette": {
+      "background": "#0E0F11",
+      "foreground": "#7384C888",
+      "accent": "#fff"
+    },
+    "cute": false
+  }
+}
