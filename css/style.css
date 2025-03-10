@@ -196,7 +196,7 @@ main > div#bin {
   padding: 30px;
 }
 main > section > a + a {
-  margin-top: 5px;
+  margin-top: 2px;
 }
 form#dialog > label {
   display: block;
